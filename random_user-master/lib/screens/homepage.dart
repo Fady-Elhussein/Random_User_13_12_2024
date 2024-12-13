@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
           providerObject.fetchUsers();
         },
         child: const Icon(Icons.refresh),
+
       ),
     );
   }
